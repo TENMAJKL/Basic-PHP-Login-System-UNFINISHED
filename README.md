@@ -1,2 +1,2 @@
 # Basic PHP Login System
-Basic PHP Login System s MySQL již brzy!
+Basic PHP Login System s MySQL již brzy! 
