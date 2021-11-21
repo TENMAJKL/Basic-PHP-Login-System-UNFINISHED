@@ -1,0 +1,203 @@
+
+/* #####-[ 𝗚𝗮𝗹𝗮𝘅𝘆𝗖𝗼𝗱𝗲 𝗣𝗮𝗻𝗲𝗹 𝘃𝟭.𝟬 𝗯𝘆 𝗠𝗮𝗿𝗲𝗸_𝗽 ]-##### */
+
+/* Nastavení CSS */
+$text-color: white; /* Barva Textu */
+$background: rgb(0, 153, 255); /* Barva Pozadí */
+$shadow: 0px 0px 5px black; /* Stín */
+$background-gradient-left: linear-gradient(to left, rgb(0, 62, 155), rgb(0, 153, 255)); /* Dvojtá Barva Pozadí */
+$background-gradient-right: linear-gradient(to right, rgb(0, 62, 155), rgb(0, 153, 255)); /* Dvojtá Barva Pozadí */
+
+/* ############# */
+
+* { /* Výchozí */
+    padding: 0; /* Výchozí Padding */
+    margin: 0; /* Výchozí Margin */
+    font-family: Arial; /* Font Textu */
+    box-sizing: border-box; /* Výchozí Velikost */
+}
+body { /* Body */
+    background: #fff; /* Barva Pozadí */
+}
+.header h1 { /* Nadpis v NavBaru / Hlavičce */
+    color: $text-color; /* Barva Textu dle Nastavení */
+    background: $background-gradient-left; /* Barva Pozadí */
+    padding: 10px 0px 10px 10px; /* Padding */
+    text-shadow: 1px 1px 5px black; /* Stín Textu */
+}
+.header p { /* Odhlášení v NavBaru / Hlavičce */
+    text-align: right; /* Pozice */
+    text-decoration: none; /* Bez podtržení */
+    color: $text-color; /* Barva Textu dle Nastavení */
+    margin-right: 15px; /* Mezera mezi okrajem */
+    font-weight: bold; /* Tlusté Písmo */
+    position: relative; /* Relativní Pozice */
+    margin-top: -40px; /* Zarovnání */
+}
+.header a { /* Odhlášení v NavBaru / Hlavičce */
+    color: $text-color; /* Barva Textu dle Nastavení */
+    text-decoration: none; /* Bez Podtržení */
+}
+.main .card h2 { /* Nadpis Karet se statistikami */
+    text-align: left; /* Zarovnání textu */
+    margin-top: 0px; /* Margin */
+    color: $text-color; /* Barva Textu dle Nastavení */
+}
+.main .card p { /* Text v Kartách se statistikami */
+    text-align: left; /* Zarovnání textu */
+    color: $text-color; /* Barva Textu dle Nastavení */
+}
+.main .card { /* Styl Karet se statistikami */
+    background: $background; /* Barva pozadí */
+    width: 210px; /* Šířka karet */
+    margin: 0 auto; /* Margin karet */
+    border-radius: 10px; /* Zaoblení rohů karet */
+    position: relative; /* Relativní pozice karet */
+    margin-top: 40px; /* Mezera mezi hlavičkou a kartami */
+    margin-right: 13px; /* Mezera mezi SideBarem a kartami */
+    padding: 10px; /* Mezera mezi textem a okrajem karet */
+    display: inline-block; /* Zarovnání karet vedle sebe do řady (bloku) */
+    box-shadow: 0px 0px 5px black; /* Stín karet */
+}
+.sidenav { /* SideBar */
+    height: 100%; /* Výška */
+    width: 200px; /* Šířka */
+    position: fixed; /* Pozice */
+    z-index: 1; /* Z-Index */
+    top: 57px; /* Výška */
+    left: 0; /* Mezera vlevo */
+    background: linear-gradient(to top, rgb(0, 62, 155), rgb(0, 153, 255));; /* Barva Pozadí */
+    overflow-x: hidden; /* Skrytí OverFlowu */
+  }
+  .sidenav .link { /* Odkazy v SideBaru */
+    padding: 6px 8px 6px 16px; /* Mezery mezi řádky */
+    text-decoration: none; /* Odstranění podtržení */
+    font-size: 20px; /* Velikost Textu */
+    color: $text-color; /* Barva textu dle nastavení */
+    display: block; /* Zarovnání do bloku */
+  }
+  .sidenav .text1 { /* Nadpisy v SideBaru */
+    padding: 6px 8px 6px 16px; /* Mezery mezi řádky */
+    text-decoration: none; /* Bez podtržení */
+    font-size: 20px; /* Velikost Textu */
+    color: $text-color; /* Barva Textu dle nastavení */
+    display: block; /* Zarovnání do bloku */
+  }
+  .sidenav .text2 { /* Odkazy v SideBaru */
+    padding: 6px 8px 6px 16px; /* Mezery mezi řádky */
+    text-decoration: none; /* Bez podtržení */
+    font-size: 15px; /* Velikost Textu */
+    color: $text-color; /* Barva Textu dle nastavení */
+    display: block; /* Zarovnání do bloku */
+  }
+  .sidenav .text2:hover { /* Odkazy v SideBaru při najetí myší */
+    color: #dddddd; /* Změna Barvy Textu Odkazu */
+  }
+
+  .header a:hover { /* Odkazy v SideBaru při najetí myší */
+    color: #dddddd; /* Změna Barvy Textu Odkazu */
+  }
+  .main { /* Hlavní část obsahu */
+    margin-left: 210px; /* Odchylka od SideBaru */
+    font-size: 15px;  /* Velikost Textu */
+    padding: 0px 10px; /* Padding */
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;} /* Padding SideBaru nahoru */
+    .sidenav a {font-size: 18px;} /* Velikost Textu Odkazů v SideBaru */
+  }
+.bold { /* Třída pro tlustý Text */
+    font-weight: bold; /* Tlustý Text */
+}  
+.main .undertabs { /* Velká Karta pod kartami se statistikami */
+    color: $text-color; /* Barva textu dle nastavení */
+    margin-top: 40px; /* Mezera mahoře */
+    width: 97%; /* Šířka velké karty */
+    background: $background; /* Barva Pozadí */
+    padding: 10px; /* Mezera mezi textem a okraji */
+    border-radius: 10px; /* Zaoblení rohů karty */
+    box-shadow: 0px 0px 5px black; /* Stín karet */
+}
+.main .infocard { /* Karta s informacemi */
+    color: $text-color; /* Barva Textu dle Nastavení */
+    margin-top: 20px; /* Mezera nahoře  */
+    width: 25%; /* Šířka karty */
+    background: $background; /* Barva Pozadí */
+    padding: 10px; /* Mezera mezi textem a okraji karty */
+    border-radius: 10px; /* Zaoblení rohů karty */
+    box-shadow: 0px 0px 5px black; /* Stín karet */
+}
+.main .infocard p{ /* Text pod nadpisem karty s informacemi */
+    padding-top: 5px; /* Mezery mezi řádky */
+}
+.main .undertabs2 { /* Velká Karta pod kartami se statistikami */
+    color: $text-color; /* Barva textu dle nastavení */
+    margin-top: 20px; /* Mezera mahoře */
+    width: 97%; /* Šířka velké karty */
+    background: $background; /* Barva Pozadí */
+    padding: 10px; /* Mezera mezi textem a okraji */
+    border-radius: 10px; /* Zaoblení rohů karty */
+    box-shadow: $shadow; /* Stín Karty */
+  }
+  .main .settings_card { /* Karty s nastavením */
+    background: $background; /* Barva pozadí */
+    width: 263px; /* Šířka karet */
+    margin: 0 auto; /* Margin karet */
+    border-radius: 10px; /* Zaoblení rohů karet */
+    position: relative; /* Relativní pozice karet */
+    margin-top: 20px; /* Mezera mezi hlavičkou a kartami */
+    margin-right: 13px; /* Mezera mezi SideBarem a kartami */
+    padding: 10px; /* Mezera mezi textem a okrajem karet */
+    display: inline-block; /* Zarovnání karet vedle sebe do řady (bloku) */
+    box-shadow: $shadow; /* Stín Karty */
+    color: white; /* Barva Textu */
+    font-size: 12px; /* Velikost Textu */
+}
+.main .settings_card input { /* Karty s Nastavením - textová pole */
+    padding: 2px; /* Mezera mezi textem a okrajem karty */
+    margin-top: 5px; /* Mezera nad kartou */
+    text-align: left; /* Zarovnání textu doleva */
+    border-radius: 7px; /* Zaoblení rohů karty */
+    border: 1px solid lightblue; /* Ohraničení textových polí a tlačítka pro uložení */
+    font-weight: bold; /* Tlusté písmo */
+}
+.main .settings_card input:hover {
+    background: rgb(218, 218, 218);
+}
+.main table {
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px;
+    background: $background; /* Barva Pozadí */
+    color: white; /* Barva Textu */
+    border-radius: 10px; /* Zaoblení rohů karet */
+    box-shadow: $shadow; /* Stín Karty */
+}
+.main table tr td {
+    text-align: center;
+    padding-top: 5px;
+}
+.main .new_card { /* Karty s nastavením */
+    background: $background; /* Barva pozadí */
+    width: 263px; /* Šířka karet */
+    margin: 0 auto; /* Margin karet */
+    border-radius: 10px; /* Zaoblení rohů karet */
+    position: relative; /* Relativní pozice karet */
+    margin-top: 20px; /* Mezera mezi hlavičkou a kartami */
+    margin-right: 13px; /* Mezera mezi SideBarem a kartami */
+    padding: 10px; /* Mezera mezi textem a okrajem karet */
+    display: inline-block; /* Zarovnání karet vedle sebe do řady (bloku) */
+    box-shadow: $shadow; /* Stín Karty */
+    color: white; /* Barva Textu */
+    font-size: 12px; /* Velikost Textu */
+}
+.main .new_card input { /* Karty s Nastavením - textová pole */
+    padding: 2px; /* Mezera mezi textem a okrajem karty */
+    margin-top: 5px; /* Mezera nad kartou */
+    text-align: left; /* Zarovnání textu doleva */
+    border-radius: 7px; /* Zaoblení rohů karty */
+    border: 1px solid lightblue; /* Ohraničení textových polí a tlačítka pro uložení */
+    font-weight: bold; /* Tlusté písmo */
+}
