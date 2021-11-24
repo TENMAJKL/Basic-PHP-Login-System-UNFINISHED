@@ -4,6 +4,7 @@ Nedokončená verze velmi základního login systému s panelem a správou uživ
 Pro správné fungování je nuté správně připojit panel s MySQL databází, jinak nebude nic fungovat! Pokud tedy nevíte jak na to, tak by jste se do tohoto neměli pouštět.
 
 Video návod od GamesPanda#0087 zde: https://youtu.be/w2EfdnffreQ
+TIP: Pokud se vám nelíbí vzhled panelu, je možné změnit pár věcí v souboru colors.php :)
 
   ## Ukázka Funkcí:
 ![](https://media.discordapp.net/attachments/865982224607871006/911981635065499668/GalaxyCode___Admin_Osobni_Microsoft_Edge_21.11.2021_15_06_18.png?width=873&height=473)
