@@ -3,7 +3,7 @@ Nedokončená verze velmi základního login systému s panelem a správou uživ
 
 Pro správné fungování je nuté správně propojit panel s MySQL databází, jinak nebude nic fungovat! Pokud tedy nevíte jak na to, tak by jste se do tohoto neměli pouštět (více v souboru db.php ve složce includes).
 
-Video návod od GamesPanda#0087 zde: -> https://youtu.be/w2EfdnffreQ <-
+📺Video návod od GamesPanda#0087 zde: -> https://youtu.be/w2EfdnffreQ <-
 
 📞Discord podpora: -> https://dsc.gg/galaxycode <-
 
