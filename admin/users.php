@@ -176,7 +176,7 @@ if($_SESSION["isloggedin"] > 0) {
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            while($row = $result->fetch_assoc()) {
+            while($row = $result->fetch_assoc()) { // Vypsání tabulky uživatelů
 
                  echo "<tr>";
                  echo "<td>".$row["id"]."</td>";
