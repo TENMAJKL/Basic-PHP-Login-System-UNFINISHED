@@ -1,8 +1,10 @@
-<?php
+<?php // GalaxyCode Panel v1.0 made by Marek_p
 
-$backgroundcolor = "#fff";
-$cardbackground = "rgb(0, 153, 255)";
-$textcolor = "#fff";
+// Nastavení barev Panelu
+
+$backgroundcolor = "#fff"; // Barva pozadí
+$cardbackground = "rgb(0, 153, 255)"; // Barva karet
+$textcolor = "#fff"; // Barva textu
 
 ?>
 <style>
