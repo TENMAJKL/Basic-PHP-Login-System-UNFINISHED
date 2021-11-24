@@ -10,7 +10,7 @@ Discord podpora: -> https://dsc.gg/galaxycode <-
 TIP: Pokud se vám nelíbí vzhled panelu, je možné změnit pár věcí v souboru colors.php :)
 
                     
-### Funkce
+### ⚙️Funkce
                     
 Dokončené  | Nedokončené
 ------------- | -------------
