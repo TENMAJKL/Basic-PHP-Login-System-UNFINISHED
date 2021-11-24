@@ -1,4 +1,4 @@
-<?php // GalaxyCode Panel v1.0 by Marek_p
+<?php // GalaxyCode Panel v1.0 made by Marek_p
 
 session_start();
 
