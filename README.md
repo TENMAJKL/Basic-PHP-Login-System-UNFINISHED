@@ -5,7 +5,7 @@ Pro správné fungování je nuté správně propojit panel s MySQL databází, 
 
 Video návod od GamesPanda#0087 zde: -> https://youtu.be/w2EfdnffreQ <-
 
-Discord podpora: -> https://dsc.gg/galaxycode <-
+📞Discord podpora: -> https://dsc.gg/galaxycode <-
 
 TIP: Pokud se vám nelíbí vzhled panelu, je možné změnit pár věcí v souboru colors.php :)
 
